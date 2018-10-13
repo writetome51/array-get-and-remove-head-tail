@@ -22,9 +22,12 @@
     "url": "https://github.com/writetome51/array-get-and-remove-head-tail/issues"
   },
   "homepage": "https://github.com/writetome51/array-get-and-remove-head-tail#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "@writetome51/arrays-match": "latest"
+  },
   "dependencies": {
     "basic-data-handling": "latest",
-    "@writetome51/array-and-index-validation": "latest"
+    "@writetome51/array-and-index-validation": "latest",
+    "@writetome51/array-get-and-remove-adjacent-at": "latest"
   }
 }
