@@ -1,5 +1,5 @@
 import { getAndRemoveHead } from './getAndRemoveHead';
-import { arraysMatch } from '@writetome51/arrays-match/arraysMatch';
+import { arraysMatch } from '@writetome51/arrays-match';
 import { getAndRemoveTail } from './getAndRemoveTail';
 
 

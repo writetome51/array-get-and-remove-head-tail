@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-head-tail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "These functions remove and return items from the beginning and end of the array, respectively",
   "main": "",
   "scripts": {

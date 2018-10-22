@@ -1,43 +1,43 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var getAndRemoveHead_1 = require("./getAndRemoveHead");
-var arraysMatch_1 = require("@writetome51/arrays-match/arraysMatch");
+var arrays_match_1 = require("@writetome51/arrays-match");
 var getAndRemoveTail_1 = require("./getAndRemoveTail");
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // Test 1
 var result = getAndRemoveHead_1.getAndRemoveHead(1, arr);
-if (arraysMatch_1.arraysMatch(result, [1]))
+if (arrays_match_1.arraysMatch(result, [1]))
     console.log('test 1 passed');
 else
     console.log('test 1 failed');
 // Test 2
 result = getAndRemoveTail_1.getAndRemoveTail(1, arr);
-if (arraysMatch_1.arraysMatch(result, [10]))
+if (arrays_match_1.arraysMatch(result, [10]))
     console.log('test 2 passed');
 else
     console.log('test 2 failed');
 // Test 3
 result = getAndRemoveHead_1.getAndRemoveHead(2, arr);
-if (arraysMatch_1.arraysMatch(result, [2, 3]))
+if (arrays_match_1.arraysMatch(result, [2, 3]))
     console.log('test 3 passed');
 else
     console.log('test 3 failed');
 // Test 4
 result = getAndRemoveTail_1.getAndRemoveTail(2, arr);
-if (arraysMatch_1.arraysMatch(result, [8, 9]))
+if (arrays_match_1.arraysMatch(result, [8, 9]))
     console.log('test 4 passed');
 else
     console.log('test 4 failed');
 // Test 5
 result = getAndRemoveHead_1.getAndRemoveHead(3, arr);
-if (arraysMatch_1.arraysMatch(result, [4, 5, 6]))
+if (arrays_match_1.arraysMatch(result, [4, 5, 6]))
     console.log('test 5 passed');
 else
     console.log('test 5 failed');
 // Test 6
 arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 result = getAndRemoveTail_1.getAndRemoveTail(3, arr);
-if (arraysMatch_1.arraysMatch(result, [8, 9, 10]))
+if (arrays_match_1.arraysMatch(result, [8, 9, 10]))
     console.log('test 6 passed');
 else
     console.log('test 6 failed');
@@ -78,7 +78,7 @@ catch (e) {
     errorTriggered = true;
 }
 if (!errorTriggered && arr.length === 0
-    && arraysMatch_1.arraysMatch(result, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+    && arrays_match_1.arraysMatch(result, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
     console.log('test 9 passed');
 else
     console.log('test 9 failed');
@@ -92,7 +92,7 @@ catch (e) {
     errorTriggered = true;
 }
 if (!errorTriggered && arr.length === 0
-    && arraysMatch_1.arraysMatch(result, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
+    && arrays_match_1.arraysMatch(result, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
     console.log('test 10 passed');
 else
     console.log('test 10 failed');
