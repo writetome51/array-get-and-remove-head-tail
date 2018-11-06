@@ -1,4 +1,4 @@
-import { getAndRemoveAdjacentAt } from '@writetome51/array-get-and-remove-adjacent-at/getAndRemoveAdjacentAt';
+import { getAndRemoveAdjacentAt } from '@writetome51/array-get-and-remove-adjacent-at';
 
 
 export function getAndRemoveHead(numItemsToRemove, array): any[] {
