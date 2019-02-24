@@ -1,6 +1,6 @@
-import { getAndRemoveHead } from './getAndRemoveHead';
+import { getAndRemoveHead } from './privy/getAndRemoveHead';
 import { arraysMatch } from '@writetome51/arrays-match';
-import { getAndRemoveTail } from './getAndRemoveTail';
+import { getAndRemoveTail } from './privy/getAndRemoveTail';
 
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];

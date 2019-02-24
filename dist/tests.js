@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getAndRemoveHead_1 = require("./getAndRemoveHead");
+var getAndRemoveHead_1 = require("./privy/getAndRemoveHead");
 var arrays_match_1 = require("@writetome51/arrays-match");
-var getAndRemoveTail_1 = require("./getAndRemoveTail");
+var getAndRemoveTail_1 = require("./privy/getAndRemoveTail");
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // Test 1
 var result = getAndRemoveHead_1.getAndRemoveHead(1, arr);
