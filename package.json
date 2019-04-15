@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-and-remove-head-tail",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "These functions remove and return items from the beginning and end of the array, respectively",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,7 +18,8 @@
     "remove",
     "beginning",
     "end",
-    "data"
+    "elements",
+    "items"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
@@ -27,11 +28,11 @@
   },
   "homepage": "https://github.com/writetome51/array-get-and-remove-head-tail#readme",
   "devDependencies": {
-    "@writetome51/arrays-match": "~1.0.5"
+    "@writetome51/arrays-match": "~1.0.6"
   },
   "dependencies": {
-    "basic-data-handling": "~1.0.15",
-    "@writetome51/array-and-index-validation": "~1.0.6",
-    "@writetome51/array-get-and-remove-adjacent-at": "~1.0.4"
+    "error-if-array-too-short-to-meet-adjacent-items-request": "~1.0.1",
+    "error-if-not-integer-zero-or-greater": "~1.0.0",
+    "@writetome51/array-get-and-remove-adjacent-at": "~1.0.5"
   }
 }

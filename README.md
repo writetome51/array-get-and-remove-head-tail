@@ -30,7 +30,8 @@ let lastThree = getAndRemoveTail(3, arr);
 ## Loading
 ```
 // if using TypeScript:
-import {getAndRemoveHead, getAndRemoveTail} from '@writetome51/array-get-and-remove-head-tail';
+import {getAndRemoveHead, getAndRemoveTail} 
+    from '@writetome51/array-get-and-remove-head-tail';
 
 // if using ES5 JavaScript:
 var getAndRemoveHead = 
