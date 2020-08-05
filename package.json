@@ -32,8 +32,6 @@
     "@writetome51/arrays-match": "^2.0.0"
   },
   "dependencies": {
-    "error-if-array-too-short-to-meet-adjacent-items-request": "^2.0.0",
-    "error-if-not-integer-zero-or-greater": "^2.0.0",
     "@writetome51/array-get-and-remove-adjacent-at": "^2.0.0"
   }
 }
