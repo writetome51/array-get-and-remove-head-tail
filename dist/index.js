@@ -1,6 +1,11 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var getAndRemoveHead_1 = require("./privy/getAndRemoveHead");
-exports.getAndRemoveHead = getAndRemoveHead_1.getAndRemoveHead;
-var getAndRemoveTail_1 = require("./privy/getAndRemoveTail");
-exports.getAndRemoveTail = getAndRemoveTail_1.getAndRemoveTail;
+import { getAndRemoveAdjacentAt } from '@writetome51/array-get-and-remove-adjacent-at';
+import { errorIfNotIntegerZeroOrGreater } from 'error-if-not-integer-zero-or-greater';
+import { errorIfArrayTooShortToMeetAdjacentItemsRequest } from 'error-if-array-too-short-to-meet-adjacent-items-request';
+export function getAndRemoveHead(numItemsToRemove, array) {
+    return getAndRemoveAdjacentAt(0, numItemsToRemove, array);
+}
+export function getAndRemoveTail(numItemsToRemove, array) {
+    errorIfNotIntegerZeroOrGreater(numItemsToRemove);
+    errorIfArrayTooShortToMeetAdjacentItemsRequest(0, numItemsToRemove, array.length);
+    return getAndRemoveAdjacentAt(-numItemsToRemove, numItemsToRemove, array);
+}

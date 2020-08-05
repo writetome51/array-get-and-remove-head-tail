@@ -28,15 +28,8 @@ let lastThree = getAndRemoveTail(3, arr);
 `npm i @writetome51/array-get-and-remove-head-tail`
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import {getAndRemoveHead, getAndRemoveTail} 
     from '@writetome51/array-get-and-remove-head-tail';
-
-// if using ES5 JavaScript:
-var getAndRemoveHead = 
-    require('@writetome51/array-get-and-remove-head-tail').getAndRemoveHead;
-var getAndRemoveTail = 
-    require('@writetome51/array-get-and-remove-head-tail').getAndRemoveTail;
 ```
 
