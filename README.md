@@ -1,8 +1,8 @@
-# getAndRemoveHead(numItems, array): any[]
+# getAndRemoveHead\<T\>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;numItems,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array: T[]<br>): T[]
 
 Removes and returns `numItems` from beginning of `array`.
 
-# getAndRemoveTail(numItems, array): any[]
+# getAndRemoveTail\<T\>(<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;numItems,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array: T[]<br>): T[]
 
 Removes and returns `numItems` from end of `array`.
 
